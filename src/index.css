@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .transition {
+        @apply transition-all duration-1000 ease-in-out;
+    }
+    .gradientText {
+        @apply bg-gradient-to-br from-cyan-400 to-teal-400 text-transparent bg-clip-text;
+    }
+    .btn1 {
+        @apply cursor-pointer bg-gradient-to-br hover:from-cyan-200 hover:to-teal-400 transition mr-4 rounded-md;
+    }
+}
